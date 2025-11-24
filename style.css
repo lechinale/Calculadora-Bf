@@ -1,0 +1,118 @@
+/* ====== RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ====== BODY ====== */
+body {
+    background: #f2f4f7;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('img720.jpg');
+    background-size: cover;        /* faz a imagem ocupar toda a tela */
+    background-position: center;   /* centraliza a imagem */
+    background-repeat: no-repeat;  /* evita repetição */
+ 
+
+
+}
+
+/* ====== TITULOS ====== */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
+header h1 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 16px;
+    color: white;
+}
+
+/* ====== FORMULARIO ====== */
+main {
+    background: white;
+    padding: 25px 30px;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Inputs padrão */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.4);
+}
+
+/* ====== RADIOS ====== */
+#sexo {
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 3px;
+}
+
+/* ====== BOTÃO ====== */
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+/* ====== RESULTADO ====== */
+#res {
+    margin-top: 25px;
+    width: 380px;
+    min-height: 50px;
+    background: #e8f3ff;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    border-radius: 8px;
+    color: #333;
+    font-size: 16px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}

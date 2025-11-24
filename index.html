@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de BF</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de gordura corporal</h1>
+        <h2>Digite os dados abaixo para saber sua porcentagem de gordura corporal</h2>
+    </header>
+    <main>
+        <label for="idade">Idade:
+    <input type="number" name="idade" id="idade" placeholder="20">
+</label><br>
+
+<label>Sexo:
+    <input type="radio" name="sexo" value="masc" checked> Masculino
+    <input type="radio" name="sexo" value="fem"> Feminino
+</label><br>
+
+<label for="peso">Peso (kg):
+    <input type="number" name="peso" id="peso" placeholder="78">
+</label><br>
+
+<label for="peito">Peito (mm):
+    <input type="number" name="peito" id="peito" placeholder="10">
+</label><br>
+
+<label for="abdomen">Abdômen (mm):
+    <input type="number" name="abdomen" id="abdomen" placeholder="10">
+</label><br>
+
+<label for="coxa">Coxa (mm):
+    <input type="number" name="coxa" id="coxa" placeholder="10">
+</label><br>
+
+<label for="triceps">Tríceps (mm):
+    <input type="number" name="triceps" id="triceps" placeholder="10">
+</label><br>
+
+<label for="subescapular">Subescapular (mm):
+    <input type="number" name="subescapular" id="subescapular" placeholder="10">
+</label><br>
+
+<label for="suprailiaca">Supra-ilíaca (mm):
+    <input type="number" name="suprailiaca" id="suprailiaca" placeholder="10">
+</label><br>
+
+<label for="axilarmedia">Axilar-média (mm):
+    <input type="number" name="axilarmedia" id="axilarmedia" placeholder="10">
+</label><br>
+
+
+        <button value="calcular" onclick="calcular()">Calcular</button>
+    </main>
+
+
+    <div id="res"></div>
+</body>
+</html>
